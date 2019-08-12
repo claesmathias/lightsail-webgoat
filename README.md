@@ -12,6 +12,5 @@ You can find the script in `/var/lib/cloud/instance/user-data.txt` on the instan
 ### Open ports
 ```
 aws lightsail open-instance-public-ports --port-info fromPort=8080,toPort=8080,protocol=TCP --instance-name webgoat-vm
-aws lightsail open-instance-public-ports --port-info fromPort=9001,toPort=9001,protocol=TCP --instance-name webgoat-vm
 aws lightsail open-instance-public-ports --port-info fromPort=9090,toPort=9090,protocol=TCP --instance-name webgoat-vm
 ```

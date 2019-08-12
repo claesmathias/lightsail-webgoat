@@ -1,6 +1,6 @@
 #!/bin/bash
 # install the necessary tools
-sudo yum install docker httpd-tools git wget unzip -y
+sudo yum install docker git -y
 
 # add new group and add centos user
 sudo groupadd docker
